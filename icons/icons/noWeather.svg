@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="211px" viewBox="0 0 283 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>noWeather</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="92.4201803 155.164193 63.860774 176.600056 53.3074611 142.407149 17.6506838 142.898197 29.1344712 109.008775 0 88.367444 29.1344712 67.7261135 17.6506838 33.8366909 53.3074611 34.3277391 63.860774 0.13483206 92.4201803 21.5706953 120.979587 0.13483206 131.5329 34.3277391 167.189677 33.8366909 155.705889 67.7261135 184.840361 88.367444 155.705889 109.008775 167.189677 142.898197 131.5329 142.407149 120.979587 176.600056"></polygon>
+        <ellipse id="path-3" cx="92.4201803" cy="88.367444" rx="50.060931" ry="50.2521816"></ellipse>
+        <filter x="-14.0%" y="-9.9%" width="128.0%" height="127.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M131.060999,177 C148.111348,177 162,162.739606 162,145.792264 C162,131.53187 152.595238,119.614266 139.368486,115.730665 C139.018257,103.022132 128.448744,92.8774079 115.430844,92.8774079 C111.647411,92.8774079 108.08247,93.791475 104.899888,95.3259711 C99.2705257,82.1990831 86.056626,73 70.6513879,73 C53.8532681,73 39.6657973,83.9672268 35.0726618,99.0059201 C15.2172714,101.362919 0,117.740349 0,137.887715 C0,158.996509 16.4912681,177 38.2552436,177 L131.060999,177 Z" id="path-5"></path>
+        <filter x="-8.6%" y="-9.6%" width="117.3%" height="126.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="View-1-" transform="translate(-591.000000, -250.000000)">
+            <g id="Group-4" transform="translate(591.000000, 250.139480)">
+                <g id="icon_few_clouds_day" transform="translate(24.000000, 0.860520)">
+                    <g id="sun" transform="translate(58.000000, 0.000000)">
+                        <g id="Star">
+                            <use fill="#FCC02E" xlink:href="#path-2"></use>
+                            <use fill-opacity="0.3" fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FEE6AC" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                    <g id="cloud">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="7" fill="#FF4E00" transform="translate(141.134456, 105.000000) rotate(55.000000) translate(-141.134456, -105.000000) " x="131.634456" y="-54.5" width="19" height="319" rx="9.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

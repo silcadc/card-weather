@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="49px" viewBox="0 0 58 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>warmWeather</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="18.9836046 32.2797493 13.1173482 36.7106261 10.9496407 29.6428185 3.62554586 29.7443201 5.98437787 22.7392439 0 18.4726002 5.98437787 14.2059564 3.62554586 7.20088024 10.9496407 7.30238183 13.1173482 0.234574225 18.9836046 4.66545098 24.849861 0.234574225 27.0175685 7.30238183 34.3416633 7.20088024 31.9828313 14.2059564 37.9672092 18.4726002 31.9828313 22.7392439 34.3416633 29.7443201 27.0175685 29.6428185 24.849861 36.7106261"></polygon>
+        <ellipse id="path-3" cx="18.9836046" cy="18.4726002" rx="10.2827858" ry="10.3873225"></ellipse>
+        <filter x="-68.1%" y="-48.1%" width="236.1%" height="234.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M26.697611,37 C30.1708302,37 33,33.9833781 33,30.3983636 C33,27.3817417 31.0842151,24.8607101 28.3898767,24.0391791 C28.3185339,21.3508356 26.1654849,19.2048363 23.5136904,19.2048363 C22.7429912,19.2048363 22.0167994,19.3981966 21.3684957,19.7228016 C20.2217738,16.9459599 17.5300535,15 14.3919494,15 C10.9701102,15 8.08006982,17.3199903 7.14443111,20.5012523 C3.09981455,20.9998482 0,24.4643047 0,28.7262474 C0,33.1915691 3.35933239,37 7.79273481,37 L26.697611,37 Z" id="path-5"></path>
+        <filter x="-42.4%" y="-45.5%" width="184.8%" height="227.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Junior-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="View-2" transform="translate(-598.000000, -548.000000)">
+            <g id="warmWeather" transform="translate(606.000000, 548.000000)">
+                <g id="sun" transform="translate(12.000000, 0.000000)">
+                    <g id="Star">
+                        <use fill="#FCC02E" xlink:href="#path-2"></use>
+                        <use fill-opacity="0.3" fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FEE6AC" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+                <g id="cloud">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

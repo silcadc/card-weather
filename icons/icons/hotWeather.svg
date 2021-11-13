@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="45px" viewBox="0 0 42 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hotWeather</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="20.9438681 35.6136842 14.4718569 40.4838802 12.0803101 32.7153029 3.99992288 32.8268683 6.60232993 25.1272422 0 20.4375627 6.60232993 15.7478833 3.99992288 8.04825718 12.0803101 8.1598226 14.4718569 0.39124524 20.9438681 5.26144132 27.4158793 0.39124524 29.8074262 8.1598226 37.8878134 8.04825718 35.2854063 15.7478833 41.8877362 20.4375627 35.2854063 25.1272422 37.8878134 32.8268683 29.8074262 32.7153029 27.4158793 40.4838802"></polygon>
+        <ellipse id="path-3" cx="20.9438681" cy="20.4375627" rx="11.5552376" ry="11.6292114"></ellipse>
+        <filter x="-60.6%" y="-43.0%" width="221.2%" height="220.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Junior-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="View-2" transform="translate(-277.000000, -542.000000)">
+            <g id="Group-4" transform="translate(210.000000, 363.000000)">
+                <g id="sun" transform="translate(67.000000, 179.000000)">
+                    <g id="Star">
+                        <use fill="#FCC02E" xlink:href="#path-2"></use>
+                        <use fill-opacity="0.3" fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FEE6AC" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
