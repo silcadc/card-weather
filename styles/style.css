@@ -166,6 +166,7 @@ h1 {
     box-shadow: 5px 10px 18px #d1d1e0;
     text-align: center;
     border: 1px solid #d1d1e0;
+    cursor: pointer;
 }
 
 .unit_off {
@@ -176,6 +177,7 @@ h1 {
     list-style-type: none;
     height: 26px;
     text-align: center;
+    cursor: pointer;
 }
 
 .img_weather {
