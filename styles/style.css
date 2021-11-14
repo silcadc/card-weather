@@ -35,7 +35,7 @@ body {
 .dash_board {
     position: relative;
     top: 20%;
-    left: 25%;
+    right: 30%;
 }
 /* ---- 2th Section ---- */
 .article_right {
