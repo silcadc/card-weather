@@ -35,7 +35,7 @@ body {
 .dash_board {
     position: relative;
     top: 20%;
-    right: 30%;
+    left: 25%;
 }
 /* ---- 2th Section ---- */
 .article_right {
@@ -197,6 +197,7 @@ h1 {
 
 .btn_update {
     border: 1px solid transparent;
+    cursor: pointer;
     border-radius: 7px;
     width: 126px;
     height: 37px;
